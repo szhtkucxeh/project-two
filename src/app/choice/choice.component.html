@@ -1,0 +1,7 @@
+
+<button type="button" class="btn btn-danger">Danger</button>
+<button [id]="buttonDisabled"(click)="onUserKlik">לחץ כאן</button>
+<p></p>
+<div class="container-fluid row">
+        <app-about *ngFor="let card of fam" class="col-4" [card]="card"></app-about>
+    </div>

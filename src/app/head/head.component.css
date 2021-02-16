@@ -1,13 +1,6 @@
-div.stickyסס {
+div.sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-  }
-  div.sticky {
-    position: static;
     top: 0;
     background-color: #ffc1073d;
     padding: 150px;

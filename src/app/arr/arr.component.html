@@ -1,0 +1,5 @@
+<div class="container-fluid row">
+    <ng-container *ngFor="let j of coins;let i =index; ">
+     <app-father *ngIf="i < 100"  class="col-4" [card]="j"> </app-father>
+</ng-container>
+</div>
