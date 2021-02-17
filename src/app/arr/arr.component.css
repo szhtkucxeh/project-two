@@ -65,3 +65,10 @@
   position: absolute;
   top: 250px;
 }
+div.sticky {
+  position: static;
+  top: 0;
+  background-color: #ffc1073d;
+  padding: 150px;
+  font-size: 20px;
+}

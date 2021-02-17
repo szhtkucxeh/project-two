@@ -11,11 +11,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
 [x: string]: any;
 
- 
- 
-    
-    
 
-coins=[{model:"aa",price:22},
-       {model:"bb",price:112}];
-} 
+}
